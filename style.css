@@ -1,0 +1,35 @@
+body {
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  font-family: "Comic Sans MS", "Verdana", sans-serif;
+  padding: 20px;
+}
+
+canvas {
+  background: #000;
+  border: 2px solid #444;
+}
+
+#sidebar {
+  width: 180px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+#score {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 12px;
+  color: #aaa;
+}
